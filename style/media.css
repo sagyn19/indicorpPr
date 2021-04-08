@@ -1,0 +1,553 @@
+@media (max-width: 1500px) {
+    .media {
+        display: none;
+    }
+
+    .media__item {
+        display: none;
+    }
+
+    .media__menu {
+    display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .bottom__form-item {
+        left: 71px;
+    }
+
+    .media {
+        display: none;
+    }
+
+    .media__menu {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -600px;
+        transition: all .5s ease;
+        padding-bottom: 100px;
+
+    }
+}
+
+@media (max-width: 991px) {
+
+        .burger {
+            display: block;
+            width: 100%;
+            position: absolute;
+            top: 65px;
+            transition: all .5s ease;
+        }
+
+        .header__inner {
+            display: none;
+        }
+
+        .hero {
+            background: url("../image/backrounds/mobile.png") center center/cover no-repeat ;
+            padding: 85px 0 200px 0;
+            background-position-y: -1500px;
+            margin: 0;
+        }
+
+        .header__item {
+            display: none;
+        }
+
+        .media__header {
+            padding: 36px 40px 36px 36px;
+        }
+
+        .media__item {
+            display: flex;
+            justify-content: space-between;
+            background: #FFFFFF;
+        }
+
+        .media__icon {
+            display: flex;
+        }
+
+        .burger__active {
+            width: 25px;
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .burger__active span:nth-child(1) {
+            display: inline-block;
+            width: 25px;
+            height: 2px;
+            background: #737373;
+            transition: all .2s ease-in-out;
+        }
+
+        .burger__active span:nth-child(2) {
+            display: inline-block;
+            width: 20px;
+            height: 2px;
+            background: #737373;
+            margin: 5px 0 5px 5px;
+            transition: all .2s ease-in-out;
+        }
+
+        .burger__active span:nth-child(3) {
+            display: inline-block;
+            width: 15px;
+            height: 2px;
+            background: #737373;
+            margin: 0 0 0 10px;
+            transition: all .2s ease-in-out;
+        }
+
+        .burger__btn span:nth-child(2) {
+        display: inline-block;
+        width: 25px;
+        height: 2px;
+        background: #737373;
+        margin: 5px 0 5px 0;
+    }
+
+         .burger__btn span:nth-child(3) {
+        display: inline-block;
+        width: 25px;
+        height: 2px;
+        background: #737373;
+        margin: 0;
+    }
+
+        .fa-shopping-cart {
+            margin: 0 35px 0 25px;
+        }
+
+        .media__menu {
+            padding-top: 100px;
+            text-align: center;
+            background: #FFFFFF;
+
+        }
+
+        .media__menu-list {
+            list-style-type: none;
+        }
+
+        .media__menu-link {
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 45px;
+            color: #737373;
+            text-decoration: none;
+        }
+
+        .media__menu-list_item:not(:last-child) {
+            margin-bottom: 30px;
+        }
+
+        .about {
+            position: static;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        .business__title {
+            font-size: 40px;
+            line-height: 57px;
+            text-align: center;
+            margin: 0 auto;
+            width: 360px;
+        }
+
+        .business__desc {
+            display: none;
+        }
+
+    .users__image, .speed {
+        margin-bottom: -31px;
+    }
+
+    .users {
+        display: inline-block;
+        margin-left: 43px;
+    }
+
+        .media {
+            display: block;
+            width: 280px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            color: #737373;
+            margin: 0 auto;
+        }
+
+        .business__btn-get {
+            display: block;
+            width: 185px;
+            margin: 0 auto 20px auto;
+        }
+
+        .business__btn-info {
+            display: block;
+            width: 140px;
+            margin: 0 auto 80px auto;
+        }
+
+        .block__bottom-item {
+            position: static;
+        }
+
+        .row {
+            flex-direction: column;
+            align-items: center;
+            margin: -30px 0;
+        }
+
+        .col-4 {
+            padding: 30px 0;
+            margin-right: 80px;
+        }
+
+        .choice__row {
+        flex-direction: column;
+        align-items: center;
+        margin: -20px 0;
+    }
+
+        .col-3 {
+            padding: 20px 0;
+            width: 30%;
+        }
+
+        .service__row {
+            flex-direction: column;
+            align-items: center;
+            margin: -60px 0;
+        }
+
+        .col-6 {
+            padding: 60px 0;
+        }
+
+        .firms__names {
+            flex-direction: column;
+            align-items: center;
+        }
+        .firm__img {
+            width: 50%;
+        }
+
+        .firm__img {
+            padding-bottom: 60px;
+        }
+
+        .bottom__form-item {
+            position: static;
+        }
+
+        .address {
+            height: unset;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 30px 0 30px 0;
+
+        }
+
+        .icons__info-title {
+            margin: 0;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+
+        .email {
+            position: static;
+            width: 340px;
+        }
+
+        .subscribe {
+            right: 230px;
+            bottom: 30px;
+        }
+
+        .row__support {
+            flex-direction: column;
+            align-items: center;
+            margin: -30px 0;
+        }
+
+        .col-4__support {
+            padding: 30px 0;
+        }
+
+        .item__support-black {
+            position: static;
+        }
+
+        .agency__info {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .agency__info-content {
+            padding-bottom: 50px;
+        }
+
+        .agency__title {
+            width: 280px;
+        }
+
+        .contact {
+            margin-right: 120px;
+        }
+
+        #bottom__back{
+            display: none;
+        }
+
+        .nav {
+            flex-direction: column;
+            padding-left: 200px;
+        }
+
+        .menu__about:not(:last-child){
+            padding-bottom: 30px;
+        }
+
+        #footer {
+            flex-direction: column;
+            padding-left: 264px;
+        }
+
+        .footer__desc {
+            width: 235px;
+        }
+        .icons__social {
+            padding-top: 30px;
+        }
+    }
+
+@media (max-width: 767px) {
+    .hero {
+        background-position-y: -1240px;
+    }
+
+
+    .subscribe {
+        right: 200px;
+        bottom: 30px;
+    }
+
+    .choice__row {
+        flex-direction: column;
+        align-items: center;
+        margin: -20px 0;
+    }
+
+    .col-3 {
+        padding: 20px 0;
+        width: 30%;
+    }
+
+    @media (max-width: 480px) {
+
+        .business__desc {
+            display: none;
+        }
+
+        .hero {
+            background: url(../image/backrounds/mobile.png) center no-repeat;
+        }
+
+
+        .block__bottom {
+            padding: 275px 0 30px 0;
+        }
+
+        .business__title {
+            font-size: 40px;
+            width: 346px;
+            display: block;
+            text-align: center;
+
+        }
+
+        .media {
+            display: block;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            color: #737373;
+        }
+
+        .block__bottom-item {
+            bottom: 0;
+        }
+
+        .business__btn-get {
+            display: block;
+            text-align: center;
+            width: 185px;
+            margin: 0 auto;
+        }
+
+        .business__btn-info {
+            display: block;
+            text-align: center;
+            width: 145px;
+            margin: 30px auto 0 auto;
+            padding: 8px 0;
+        }
+
+        .row {
+            flex-direction: column;
+            align-items: center;
+            margin: -30px 0;
+
+        }
+
+        .col-4 {
+            padding: 30px 0;
+            margin-right: 183px;
+
+
+        }
+
+        .main__title {
+            width: 250px;
+            margin: 0 auto;
+        }
+
+        .main__desc {
+            width: 273px;
+            margin: 0 auto;
+        }
+
+        .choice__row {
+            flex-direction: column;
+            align-items: center;
+            margin: -20px 0;
+        }
+
+        .col-3 {
+            padding: 20px 0;
+            width: 50%;
+        }
+
+        #service .main__title {
+            width: 310px;
+        }
+
+        .col-6 {
+            width: 100%;
+        }
+
+        .users {
+            margin: -57px 0 0 49px;
+        }
+
+        .users__image, .speed {
+            margin-bottom: 15px;
+        }
+
+        .firms__names {
+            flex-direction: column;
+            width: 100%;
+            padding: 0;
+        }
+
+        .firm__img {
+            width: 35%;
+            margin: 0 auto;
+        }
+
+        .firm__img:not(:last-child) {
+            padding-bottom: 60px;
+        }
+
+        .subscribe {
+            right: 38px;
+            bottom: 30px;
+        }
+
+        #support .main__title {
+            width: 100%;
+            margin-top: 60px;
+        }
+
+        #support .main__desc {
+            width: 72%;
+        }
+
+        .col-4__support {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .item__support-black {
+            top: 0;
+            margin: 30px 0;
+        }
+
+
+        .agency__info {
+            padding: 40px 0;
+        }
+
+        .agency__info-content {
+            margin: 0 auto;
+        }
+
+        .agency__title {
+            width: 287px;
+        }
+
+        .agency__desc {
+            display: block;
+            width: 180px;
+
+        }
+
+
+        #all__about {
+            padding: 55px 0 55px 90px;
+        }
+
+        .nav {
+            flex-direction: column;
+            padding: 0;
+        }
+
+        .menu__about:not(:last-child) {
+            padding-bottom: 30px;
+        }
+
+        .social {
+            display: block;
+            padding-left: 41px;
+            margin-top: -30px;
+        }
+
+        #footer {
+            flex-direction: column;
+            align-items: center;
+            padding: 25px 90px;
+        }
+
+        .icons__social {
+            padding-top: 30px;
+            margin-right: 90px;
+        }
+
+    }
+}
