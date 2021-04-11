@@ -32,6 +32,13 @@
         padding-bottom: 100px;
 
     }
+
+    .media__menu-link:hover {
+        transition: .5s ease;
+        background: #FFA62B;
+        color: #FFFFFF;
+
+    }
 }
 
 @media (max-width: 991px) {
@@ -71,6 +78,7 @@
 
         .media__icon {
             display: flex;
+            align-items: center;
         }
 
         .burger__active {
@@ -213,7 +221,7 @@
 
         .col-4 {
             padding: 30px 0;
-            margin-right: 80px;
+            width: 42%;
         }
 
         .choice__row {
@@ -222,10 +230,19 @@
         margin: -20px 0;
     }
 
+    .practice__row {
+        flex-direction: column;
+        align-items: center;
+        margin: -20px 0;
+    }
+
+
         .col-3 {
             padding: 20px 0;
             width: 30%;
         }
+
+
 
         .service__row {
             flex-direction: column;
@@ -241,6 +258,7 @@
             flex-direction: column;
             align-items: center;
         }
+
         .firm__img {
             width: 50%;
         }
@@ -262,6 +280,10 @@
 
         }
 
+        .address__content {
+            left: 0;
+        }
+
         .icons__info-title {
             margin: 0;
             text-align: center;
@@ -269,15 +291,6 @@
         }
 
 
-        .email {
-            position: static;
-            width: 340px;
-        }
-
-        .subscribe {
-            right: 230px;
-            bottom: 30px;
-        }
 
         .row__support {
             flex-direction: column;
@@ -342,10 +355,6 @@
     }
 
 
-    .subscribe {
-        right: 200px;
-        bottom: 30px;
-    }
 
     .choice__row {
         flex-direction: column;
@@ -357,6 +366,15 @@
         padding: 20px 0;
         width: 30%;
     }
+
+    .practice__row .col-3 {
+        width: 31%;
+    }
+
+    .col-4 {
+    width: 45%;
+    }
+}
 
     @media (max-width: 480px) {
 
@@ -370,7 +388,7 @@
 
 
         .block__bottom {
-            padding: 275px 0 30px 0;
+            padding: 60px 0 30px 0;
         }
 
         .business__title {
@@ -418,7 +436,7 @@
 
         .col-4 {
             padding: 30px 0;
-            margin-right: 183px;
+            width: 80%;
 
 
         }
@@ -439,9 +457,13 @@
             margin: -20px 0;
         }
 
-        .col-3 {
+        .choice__row .col-3 {
             padding: 20px 0;
             width: 50%;
+        }
+
+        .practice__row .col-3 {
+            width: 56%;
         }
 
         #service .main__title {
@@ -475,10 +497,6 @@
             padding-bottom: 60px;
         }
 
-        .subscribe {
-            right: 38px;
-            bottom: 30px;
-        }
 
         #support .main__title {
             width: 100%;
@@ -515,7 +533,15 @@
         .agency__desc {
             display: block;
             width: 180px;
+        }
 
+        .address__content {
+            left: 0;
+            width: 333px;
+        }
+
+        .email {
+            padding: 19px 144px 18px 20px;
         }
 
 
@@ -550,4 +576,3 @@
         }
 
     }
-}
